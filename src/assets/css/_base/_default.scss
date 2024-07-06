@@ -1,0 +1,82 @@
+ul,ol,h1,h2,h3,h4,h5,h6,p,body{
+    margin: 0px;
+    padding: 0px;
+}
+ul,ol{
+    list-style: none;
+}
+h1{
+    font-size: 35px;
+    font-family: Poppins-Bold;
+    color: #1e2021;
+}
+h2{
+    font-size: 33px;
+    font-family: Poppins-Medium;
+    color: #323538;
+}
+h3{
+    font-size: 27pt;
+    font-family: Poppins-Medium;
+    color: #1e2021;
+}
+h4{
+    font-size: 22pt;
+    font-family: Poppins-Medium;
+    color: #1e2021;
+}
+h5{
+    font-size: 17pt;
+    font-family: Poppins-Medium;
+    color: #1e2021;
+}
+h6{
+    font-size: 15pt;
+    font-family: Poppins-Medium;
+    color: #1e2021;
+}
+p{
+    font-size: 14pt;
+    font-family: Poppins-Medium;
+    color: #51555a;
+}
+.settittle{
+    font-size: 20pt;
+    color: #51555a;
+    font-family: Poppins-Medium;
+}
+.settittle-blue{
+    font-size: 20pt;
+    color: #ffffff;
+    font-family: Poppins-Medium;
+}
+.buttonblue{
+    border-radius: 5%;
+    padding: 15px 30px;
+    background-color: #0187c3;
+    margin: 0;
+}
+.buttonorange{
+    padding: 15px 30px;
+    border-radius: 5%;
+    background-color: #f75d2d;
+    margin: 0;
+}
+.buttonorange:hover{
+    padding: 15px 30px;
+    border-radius: 5%;
+    background-color: #f99d81;
+    margin: 0;
+}
+.buttonblue:hover{
+    margin: 0;
+    padding: 15px 30px;
+    border-radius: 5%;
+    background-color: #bfe9fb;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: #ffffff;
+}
