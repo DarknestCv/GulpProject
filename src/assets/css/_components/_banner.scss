@@ -29,4 +29,20 @@
             text-align: center;
         }
     }
+    .input{
+        background-color: #03a9f4;
+        position: relative;
+        padding: 20px;
+        top: 250px;
+        ul{
+            li{
+                margin: 20px;
+            }
+            li:nth-last-of-type(1){
+                padding: 10px 60px;
+            }
+            display: flex;
+        }
+    }
+
 }
