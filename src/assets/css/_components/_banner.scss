@@ -1,8 +1,11 @@
 .banner{
-    img{
-        background-color: #e6f7fe;
-        position: absolute;
-    }
+    background-image: url(../img/img-cloud.png);
+    background-size: cover;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #e6f7fe;
+
     div:nth-of-type(1){
         top: 40px;
         position: relative;
@@ -10,13 +13,13 @@
             font-size: 50px;
             letter-spacing: -1px;
             color: #03a9f4;
-            font-family: "Poppins";
+            font-family: "Poppins-Bold";
         }
         h1:nth-child(2){
             font-size: 50px;
             letter-spacing: -1px;
             color: #1e2021;
-            font-family: "Poppins";
+            font-family: "Poppins-Bold";
         }
         a{
             position: relative;
@@ -25,23 +28,69 @@
             text-transform: uppercase;
             color: #ffffff;
             font-weight: 600;
-            font-family: "Poppins";
+            font-family: "Poppins-Medium";
             text-align: center;
+        }
+        img{
+
         }
     }
     .input{
         background-color: #03a9f4;
-        position: relative;
-        padding: 20px;
-        top: 250px;
-        ul{
-            li{
-                margin: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        div{
+            padding: 20px 20px 40px 10px;
+            position: relative;
+            margin: 0px 15px;
+            top: 5px;
+            label{
+                display: flex;
+                color: #ffffff;
+                padding: 0;
+                margin: 0;
+                padding-bottom: 5px;
             }
-            li:nth-last-of-type(1){
-                padding: 10px 60px;
+            select{
+                margin: 0;
+                border: 0;
+                border-radius: 3px;
+                background-color: #fff;
+                color: #51555a;
+                padding: 15px;
+                width: 220px;
+                cursor: pointer;
             }
-            display: flex;
+            a{
+                padding: 10pt 70px;
+                top: 13px;
+                background-color: #0187c3;
+                border-radius: 3px;
+            }
+            nav{
+                height: 51px;
+                width: 220px;
+                text-align: center;
+                background-color: #fff;
+                border-radius: 3px;
+                padding: 14px;
+                display: flex;
+                justify-content:center;
+                align-items: center;
+                
+                span:nth-child(1){
+                    border: 1px solid #d6d9db;
+                    border-radius: 3px;
+                    padding: 7pt 19px;
+                    margin: 40pt;
+                    background-color: #f6f9f9;
+                    cursor: pointer;
+                }
+                span{
+                    color: #51555a;
+                }
+            }
         }
     }
 
