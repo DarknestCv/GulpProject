@@ -1,0 +1,19 @@
+.bg-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+    margin-top: 80px;
+
+    div:nth-child(2){
+        width: 570px;
+        margin: 0 20px;
+        p{
+            font-size: 14px;
+            line-height: 22px;
+        }
+        h1{
+            margin: 38px 0px;
+        }
+    }
+}
