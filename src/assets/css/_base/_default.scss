@@ -51,29 +51,35 @@ p{
     font-family: Poppins-Medium;
 }
 .buttonblue{
-    border-radius: 5%;
+    border-radius: 3%;
     padding: 15px 30px;
     background-color: #0187c3;
     margin: 0;
+    font-family: Poppins-Regular;
     color: #ffffff;
+    cursor: pointer;
 }
 .buttonorange{
     padding: 15px 30px;
     border-radius: 5%;
     background-color: #f75d2d;
     margin: 0;
+    cursor: pointer;
+    font-family: Poppins-Regular;
 }
 .buttonorange:hover{
     padding: 15px 30px;
     border-radius: 5%;
     background-color: #f99d81;
     margin: 0;
+    cursor: pointer;
 }
 .buttonblue:hover{
     margin: 0;
     padding: 15px 30px;
     border-radius: 5%;
     background-color: #bfe9fb;
+    cursor: pointer;
 }
 a{
     text-decoration: none;
