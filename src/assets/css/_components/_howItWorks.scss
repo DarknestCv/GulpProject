@@ -7,6 +7,10 @@ section.howItWorks {
     margin-bottom: 45px;
   }
 
+  .card:hover{
+    transition-duration: 1s;
+    transform: scale(1.1);
+  }
   .card {
     display: flex;
     flex-direction: column;
@@ -16,6 +20,7 @@ section.howItWorks {
     padding: 0 30px;
     position: relative;
     min-height: 260px;
+    
 
     &::after {
       content: "";
